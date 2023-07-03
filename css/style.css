@@ -1,0 +1,38 @@
+
+/* transform-style: preserve-3d torna o elemento 3D.
+por padrão, o elemento já começa com um transform: rotateY(180deg)
+OBS: Tem que ser usado junto do transform */
+#carta{
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    transition: transform .5s;
+}
+
+.face{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#frente{
+    background-color: rgb(44, 226, 226);
+}
+
+/* backface-visibility indica se o elemento 3D terá seu verso exibido ou não,
+por padrão, ele só inverte a parte da frente do elemento, mas ao definir a 
+propriedade como hidden, ele deixa de inverter a frente do elemento e passa
+a mostrar a parte de trás */
+#tras{
+    background-color: rgb(90, 24, 151);
+    color: white;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
