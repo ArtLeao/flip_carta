@@ -8,7 +8,7 @@ Este projeto já foi concluído :heavy_check_mark:
 
 ### Deploy
 
-Para visualizar a aplicação deste projeto,  <a href="https://artleao.github.io/flip-carta" target="_blank">clique aqui</a>.
+Para visualizar a aplicação deste projeto,  <a href="https://artleao.github.io/flip_carta" target="_blank">clique aqui</a>.
 
 ### Como rodar o projeto
 
