@@ -1,6 +1,6 @@
 # Flip_carta
 
-Esta aplicação representa a minha primeira experiência usando as propriedades transform-style e e backface-visibility.
+Esta aplicação representa a minha primeira experiência usando as propriedades transform-style e backface-visibility.
 
 ### Status do projeto
 
